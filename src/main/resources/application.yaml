@@ -41,7 +41,7 @@ spring:
       connectionTimeout: 30000
   jpa:
     hibernate:
-      ddl-auto: update   # automatically creates tables based on entities
+      ddl-auto: create   # automatically creates tables based on entities
     show-sql: true       # logs SQL statements
     properties:
       hibernate:
